@@ -1,13 +1,16 @@
 # Minishell
 
-### [C]
-
 ### Implementation of a basic shell
 
 This group project was done with JuPillet. The goal was to implement a small shell following Bash as reference. Reading Bash's documentation was a valid approach, but we opted for reverse engineering to replicate the behaviors ourselves.
 
+Hopefully, we finished the project and didn't need to use minishells to end it all.
 
-#### The subject requiered to implement several builtins:
+<p align="center">
+  <img src="https://i.imgur.com/Dl1FaeZ.png" alt="Minishells" />
+</p>
+
+## Requiered builtins:
 
 - **cd** with only a relative or absolute path
 - **echo** with option -n
@@ -17,8 +20,7 @@ This group project was done with JuPillet. The goal was to implement a small she
 - **pwd** with no options
 - **unset** with no options
 
-
-#### The following functionalities where required:
+## Required functionalities:
 
 - Display a prompt when waiting for a new command.
 - Have a working history.
@@ -38,9 +40,14 @@ This group project was done with JuPillet. The goal was to implement a small she
 - Handle `$?`.
 - Handle `ctrl-C`, `ctrl-D` and `ctrl-\` which should behave like in bash.
 
+<p align="center">
+  <img src="https://i.imgur.com/yI7uGOv.png" alt="Program preview" />
+</p>
 
-#### Skills gained:
+## Skills gained
 
 Through this project, we have developed teamwork skills, learned how to get along, analyze and imagine how things work under the hood. At first, it was difficult, but we arrived at the end with an outcome that is very satisfactory for us.
+
+## Final Grade
 
 ![alt text](https://i.imgur.com/wtxZeF1.png "Final grade 100/100")
